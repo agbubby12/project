@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper > .header {
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper > .header > * {
+    margin: 0 10px;
+}
+
+.wrapper > .header > .blank {
+    flex-grow: 1;
+}
+
+.wrapper > .header > .circle {
+    background: red;
+
+}
+
+.wrapper > .middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+
+.wrapper > .middle > * {
+    margin: 10px 0;
+}
+
+.wrapper > .middle > img {
+    width: 20%;
+}
+
+.wrapper > .middle > input {
+    font-size: 2em;
+    width: 50%;
+}
+
+.wrapper > .middle > button {
+    color: lightgray;
+    font-weight: bold;
+}
+
+.wrapper > .footer {
+    background: lightgray;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper > .footer > .blank2 {
+    flex-grow: 1;
+}
+
+.wrapper > .footer > * {
+    margin: 0 10px;
+}
